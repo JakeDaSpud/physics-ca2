@@ -10,34 +10,238 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      1550,         55]
-NotebookOptionsPosition[      1071,         38]
-NotebookOutlinePosition[      1476,         54]
-CellTagsIndexPosition[      1433,         51]
+NotebookDataLength[      9775,        257]
+NotebookOptionsPosition[      9293,        241]
+NotebookOutlinePosition[      9725,        258]
+CellTagsIndexPosition[      9682,        255]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
-
-Cell[CellGroupData[{
 Cell[BoxData[
- RowBox[{"Print", "[", 
-  RowBox[{"Hello", " ", 
-   RowBox[{"World", "!"}]}], "]"}]], "Input",
- CellChangeTimes->{{3.939399761413248*^9, 3.939399767401509*^9}},
- CellLabel->"In[1]:=",ExpressionUUID->"ae13aa4e-9ca0-47fd-ab94-c92df1aef744"],
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{
+    RowBox[{"Jake", " ", "&"}], " ", "Anastasia"}], " ", "*)"}], 
+  "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{
+   "Have", " ", "you", " ", "included", " ", "3", " ", "Worked", " ", 
+    "Examples", " ", "in", " ", "your", " ", "word", " ", "file", " ", "that",
+     " ", "can", " ", "be", " ", "used", " ", "for", " ", "testing", " ", 
+    "all", " ", "aspects", " ", "of", " ", "the", " ", 
+    RowBox[{"project", "?"}]}], "*)"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{
+   "Have", " ", "you", " ", "loaded", " ", "the", " ", "output", " ", "of", 
+    " ", "your", " ", "programme", " ", "into", " ", "an", " ", "excel", " ", 
+    "sheet", " ", "and", " ", "compared", " ", "the", " ", "answers", " ", 
+    "you", " ", "got", " ", "with", " ", "your", " ", "worked", " ", 
+    RowBox[{"examples", "?"}]}], "*)"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{
+   "Is", " ", "the", " ", "object", " ", "being", " ", "simulated", " ", "a", 
+    " ", 
+    RowBox[{"ball", "?"}]}], "*)"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{"Does", " ", "the", " ", "program", " ", 
+    RowBox[{"simulate", ":"}]}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{"-", " ", "1"}], "D", " ", 
+    RowBox[{"motion", "?"}]}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{"-", " ", "2"}], "D", " ", 
+    RowBox[{"motion", "?"}]}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{"-", " ", "3"}], "D", " ", 
+    RowBox[{"motion", "?"}]}], "*)"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{"Did", " ", "you", " ", "implement", " ", "the", " ", "Runge"}], 
+    "-", 
+    RowBox[{"Kutta", " ", "Method"}]}], "*)"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{
+   "Did", " ", "you", " ", "include", " ", "the", " ", "effects", " ", "of", 
+    " ", 
+    RowBox[{"Gravity", "?"}]}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{
+   "Did", " ", "you", " ", "include", " ", "the", " ", "effects", " ", "of", 
+    " ", 
+    RowBox[{"Drag", "?"}]}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{
+   "Did", " ", "you", " ", "include", " ", "the", " ", "effects", " ", "of", 
+    " ", 
+    RowBox[{"Wind", "?"}]}], "*)"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{"Does", " ", "the", " ", "object", " ", 
+    RowBox[{"Spin", "?"}]}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"-", " ", "If"}], " ", "yes"}], ",", " ", 
+    RowBox[{
+    "does", " ", "the", " ", "Spin", " ", "vary", " ", "as", " ", "the", " ", 
+     "projectile", " ", 
+     RowBox[{"moves", "?"}]}]}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"-", " ", "If"}], " ", "yes"}], ",", " ", 
+    RowBox[{
+    "does", " ", "the", " ", "Spin", " ", "have", " ", "an", " ", "effect", 
+     " ", "on", " ", "the", " ", "motion", " ", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"3", "D", " ", "case"}], ")"}], "?"}]}]}], "*)"}], "\n", 
+  "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"Is", " ", "the", " ", "object"}], "\[CloseCurlyQuote]"}], "s", 
+    " ", "spin", " ", "evaluated", " ", "as", " ", "if", " ", "it", " ", 
+    "was", " ", "a", " ", 
+    RowBox[{"sphere", "?"}]}], "*)"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{"Graphics", "\[Dash]", 
+    RowBox[{
+    "did", " ", "you", " ", "graphically", " ", "simulate", " ", "the", " ", 
+     RowBox[{"motion", "?"}]}]}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"-", " ", "If"}], " ", "yes"}], ",", " ", 
+    RowBox[{
+    "did", " ", "you", " ", "account", " ", "for", " ", "the", " ", "range", 
+     " ", "varying", " ", "for", " ", "different", " ", 
+     RowBox[{"projectiles", "?"}]}]}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"-", " ", "If"}], " ", "yes"}], ",", " ", 
+    RowBox[{
+    "did", " ", "you", " ", "account", " ", "for", " ", "the", " ", "height", 
+     " ", "varying", " ", "for", " ", "different", " ", 
+     RowBox[{"projectiles", "?"}]}]}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"-", " ", "If"}], " ", "yes"}], ",", " ", 
+    RowBox[{
+    "can", " ", "the", " ", "object", " ", "be", " ", "viewed", " ", "from", 
+     " ", "many", " ", "angles", " ", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"3", "D", " ", "case"}], ")"}], "?"}]}]}], "*)"}], 
+  "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{
+   "What", " ", "is", " ", "your", " ", "pixel", " ", "to", " ", "metre", " ", 
+    RowBox[{"ratio", "?"}]}], "*)"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{"When", " ", "does", " ", "the", " ", "simulation", " ", "stop"}],
+     "\[IndentingNewLine]", "-", " ", 
+    RowBox[{"after", " ", "a", " ", "certain", " ", "time"}], 
+    "\[IndentingNewLine]", "-", " ", 
+    RowBox[{"when", " ", "object", " ", "hits", " ", "ground"}], 
+    "\[IndentingNewLine]", "-", " ", "other"}], "*)"}], "\[IndentingNewLine]",
+   "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{
+   "Are", " ", "there", " ", "multiple", " ", "objects", " ", "being", " ", 
+    RowBox[{"simulated", "?"}]}], "*)"}]}]], "Input",
+ CellChangeTimes->{{3.939402717484872*^9, 3.939402721663692*^9}, {
+  3.939402795777935*^9, 3.939403104017567*^9}, {3.939403161235784*^9, 
+  3.9394031776961036`*^9}, {3.9394033555528517`*^9, 3.9394033792699738`*^9}, {
+  3.9394042312563877`*^9, 
+  3.939404240220235*^9}},ExpressionUUID->"ec170dd6-0f9d-400f-917d-\
+478f0acc2660"],
 
 Cell[BoxData[
- RowBox[{"Hello", " ", 
-  RowBox[{"World", "!"}]}]], "Print",
- CellChangeTimes->{3.93939976825546*^9},
- CellLabel->
-  "During evaluation of \
-In[1]:=",ExpressionUUID->"f84a8595-9f3a-4b6b-a26f-cd0a764300f6"]
-}, Open  ]]
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{"Initial", " ", "Conditions"}], " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"initialPosition", " ", "=", " ", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", "0", "}"}], ",", " ", 
+       RowBox[{"{", "0", "}"}], ",", " ", 
+       RowBox[{"{", "0", "}"}]}], "}"}]}], ";"}], "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"initialVelocity", " ", "=", " ", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", "0", "}"}], ",", " ", 
+       RowBox[{"{", "0", "}"}], ",", " ", 
+       RowBox[{"{", "0", "}"}]}], "}"}]}], ";"}], "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"mass", " ", "=", " ", "0"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"gravity", " ", "=", " ", "0"}], ";"}], "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"drag", " ", "=", " ", "0"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"frontalArea", " ", "=", " ", "0"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"density", " ", "=", " ", "0"}], ";"}], "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"initialAngularVelocity", " ", "=", " ", "0"}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"radius", " ", "=", " ", "0"}], ";"}], "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"spinAxes", " ", "=", " ", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", "0", "}"}], ",", " ", 
+       RowBox[{"{", "0", "}"}], ",", " ", 
+       RowBox[{"{", "0", "}"}]}], "}"}]}], ";"}], "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"wind", " ", "=", " ", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", "0", "}"}], ",", " ", 
+       RowBox[{"{", "0", "}"}], ",", " ", 
+       RowBox[{"{", "0", "}"}]}], "}"}]}], ";"}]}]}]], "Input",
+ CellChangeTimes->{{3.939399761413248*^9, 3.939399767401509*^9}, {
+   3.9394008988048763`*^9, 3.9394009131885653`*^9}, {3.939400973361224*^9, 
+   3.939401006254979*^9}, {3.9394010506490574`*^9, 3.9394010661168613`*^9}, {
+   3.939401148812605*^9, 3.939401153538974*^9}, {3.939401305081139*^9, 
+   3.9394013645532274`*^9}, {3.939401421029148*^9, 3.9394014317527666`*^9}, {
+   3.9394015794175267`*^9, 3.9394015827057433`*^9}, {3.939401899281309*^9, 
+   3.93940193686758*^9}, {3.9394020393389215`*^9, 3.9394021931788225`*^9}, {
+   3.939402286468104*^9, 3.939402297898233*^9}, {3.9394023551774673`*^9, 
+   3.939402374644656*^9}, {3.9394027162457685`*^9, 3.9394027577116337`*^9}, 
+   3.9394028123956575`*^9, {3.939403254517786*^9, 3.9394032572757983`*^9}, {
+   3.939403292017028*^9, 
+   3.9394033402901373`*^9}},ExpressionUUID->"ae13aa4e-9ca0-47fd-ab94-\
+c92df1aef744"]
 },
-WindowSize->{569.25, 624.75},
-WindowMargins->{{429, Automatic}, {42, Automatic}},
+WindowSize->{1440, 741.75},
+WindowMargins->{{-6, Automatic}, {Automatic, -6}},
+Magnification:>1.3 Inherited,
 FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (July 24, 2023)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"f9ada341-c836-4b43-8b39-f01cadbe1886"
@@ -53,13 +257,9 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[CellGroupData[{
-Cell[580, 22, 252, 5, 28, "Input",ExpressionUUID->"ae13aa4e-9ca0-47fd-ab94-c92df1aef744"],
-Cell[835, 29, 220, 6, 22, "Print",ExpressionUUID->"f84a8595-9f3a-4b6b-a26f-cd0a764300f6"]
-}, Open  ]]
+Cell[558, 20, 5950, 151, 952, "Input",ExpressionUUID->"ec170dd6-0f9d-400f-917d-478f0acc2660"],
+Cell[6511, 173, 2778, 66, 458, "Input",ExpressionUUID->"ae13aa4e-9ca0-47fd-ab94-c92df1aef744"]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
