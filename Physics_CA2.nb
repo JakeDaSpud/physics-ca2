@@ -1,0 +1,65 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1550,         55]
+NotebookOptionsPosition[      1071,         38]
+NotebookOutlinePosition[      1476,         54]
+CellTagsIndexPosition[      1433,         51]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Print", "[", 
+  RowBox[{"Hello", " ", 
+   RowBox[{"World", "!"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.939399761413248*^9, 3.939399767401509*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"ae13aa4e-9ca0-47fd-ab94-c92df1aef744"],
+
+Cell[BoxData[
+ RowBox[{"Hello", " ", 
+  RowBox[{"World", "!"}]}]], "Print",
+ CellChangeTimes->{3.93939976825546*^9},
+ CellLabel->
+  "During evaluation of \
+In[1]:=",ExpressionUUID->"f84a8595-9f3a-4b6b-a26f-cd0a764300f6"]
+}, Open  ]]
+},
+WindowSize->{569.25, 624.75},
+WindowMargins->{{429, Automatic}, {42, Automatic}},
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (July 24, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"f9ada341-c836-4b43-8b39-f01cadbe1886"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 252, 5, 28, "Input",ExpressionUUID->"ae13aa4e-9ca0-47fd-ab94-c92df1aef744"],
+Cell[835, 29, 220, 6, 22, "Print",ExpressionUUID->"f84a8595-9f3a-4b6b-a26f-cd0a764300f6"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
